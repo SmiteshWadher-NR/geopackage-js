@@ -84,7 +84,9 @@
   "optionalDependencies": {
     "better-sqlite3": "^9.1.1",
     "chalk": "4.1.1",
-    "inquirer": "8.0.0"
+    "inquirer": "8.0.0",
+    "@capacitor/core": "^8.1.0",
+    "@capacitor-community/sqlite": "^8.0.0"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

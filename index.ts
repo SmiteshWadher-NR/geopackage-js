@@ -292,6 +292,29 @@ import { SqliteAdapter } from './lib/db/sqliteAdapter';
 import { TableColumnKey } from './lib/db/tableColumnKey';
 import { TableMapping } from './lib/db/tableMapping';
 
+// Added by Smitesh
+import { AsyncDBAdapter } from './lib/db/dbAdapter';
+import { AsyncGeoPackageConnection } from './lib/db/asyncGeoPackageConnection';
+import { CapacitorSqliteAdapter } from './lib/db/capacitorSqliteAdapter';
+import { AsyncGeoPackage } from './lib/asyncGeoPackage';
+import { AsyncDao } from './lib/dao/asyncDao';
+import { AsyncUserConnection } from './lib/user/asyncUserConnection';
+import { AsyncUserDao } from './lib/user/asyncUserDao';
+import { SQLUtilsAsync } from './lib/db/sqlUtilsAsync';
+import { AsyncSpatialReferenceSystemDao } from './lib/srs/asyncSpatialReferenceSystemDao';
+import { AsyncContentsDao } from './lib/contents/asyncContentsDao';
+import { AsyncGeometryColumnsDao } from './lib/features/columns/asyncGeometryColumnsDao';
+import { AsyncFeatureDao } from './lib/features/user/asyncFeatureDao';
+import { AsyncTileMatrixDao } from './lib/tiles/matrix/asyncTileMatrixDao';
+import { AsyncTileMatrixSetDao } from './lib/tiles/matrixset/asyncTileMatrixSetDao';
+import { AsyncTileDao } from './lib/tiles/user/asyncTileDao';
+import { AsyncTypedUserDao } from './lib/tiles/user/asyncTypedUserDao';
+import { AsyncExtensionDao } from './lib/extension/asyncExtensionDao';
+import { AsyncContentsIdDao } from './lib/extension/nga/contents/asyncContentsIdDao';
+import { AsyncTableIndexDao } from './lib/extension/nga/index/asyncTableIndexDao';
+import { AsyncExtendedRelationsDao } from './lib/extension/related/asyncExtendedRelationsDao';
+import { AsyncBatchWriter } from './lib/db/asyncBatchWriter';
+
 // db/table
 import { ColumnConstraints } from './lib/db/table/columnConstraints';
 import { Constraint } from './lib/db/table/constraint';
@@ -606,4 +629,27 @@ export {
   WebPExtension,
   ZoomLevelProgress,
   ZoomOtherExtension,
+
+  // Added by Smitesh
+  AsyncDBAdapter,
+  AsyncGeoPackageConnection,
+  CapacitorSqliteAdapter,
+  AsyncGeoPackage,
+  AsyncDao,
+  AsyncUserConnection,
+  AsyncUserDao,
+  SQLUtilsAsync,
+  AsyncSpatialReferenceSystemDao,
+  AsyncContentsDao,
+  AsyncGeometryColumnsDao,
+  AsyncFeatureDao,
+  AsyncTileMatrixDao,
+  AsyncTileMatrixSetDao,
+  AsyncTileDao,
+  AsyncTypedUserDao,
+  AsyncExtensionDao,
+  AsyncContentsIdDao,
+  AsyncTableIndexDao,
+  AsyncExtendedRelationsDao,
+  AsyncBatchWriter
 };
